@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    background-image: url('https://www.ada.edu.az/frq-content/plugins/news_x1/entry/20210816091913_59507300.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Helvetica', sans-serif;
+    color: white;
+  }
+  h1, h2 {
+    color: #333;
+  }
+  
+  
+  
+  h2 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 15px;
+  }
+  
+  p {
+    line-height: 1.6em;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+  .byline {
+    font-family: Helvetica;
+    color: black;
+    float: left;
+    font-size: 14px;
+    padding-left: 10px;
+    text-transform: uppercase;
+  }
+  
+  .caption {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 14px;
+    margin-left: 20px;
+    padding: 10px;
+    position: relative;
+    top: 80%;
+    width: 100%;
+    background-color: white;
+    color: black;
+  }
+  
+  .content {
+    padding: 60px;
+    color: #333; /* Adjust text color for better contrast */
+  }
+  
+  .image {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+  }
+  
+  .writer-img {
+    -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    float: left;
+    width: 50px;
+  }
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent; /* Set background to transparent */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo{
+    position: relative;
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .navbar a {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 2.5rem;
+    font-size: 1.15rem;
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover,
+  .navbar a.active {
+    color: blue;
+  }  
